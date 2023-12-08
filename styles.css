@@ -60,7 +60,6 @@ mark.pastel-purple {
   margin-top: 1.5em;
   justify-content: flex-end;
   align-items: center;
-
   width: 60em;
   height: 6em;
   z-index: 1;
@@ -207,4 +206,30 @@ h2 {
   font-size: 1.2em;
   line-height: 1.5em;
   font-weight: 490;
+}
+
+/* ------ PROJECT PAGE ------ */
+
+.project-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 65em;
+  height: 49.3em;
+  overflow-y: scroll;
+}
+
+.project-container::-webkit-scrollbar {
+  display: none;
+}
+.indv-project {
+  position: relative;
+  background-color: white;
+  margin: 30px 10px;
+  width: 50em;
+  height: 30em;
+  border: solid 1px rgb(226, 226, 226);
+  border-radius: 50px;
+  box-shadow: rgba(128, 128, 128, 0.24) 0px 3px 8px;
+  float: right;
 }
