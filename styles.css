@@ -13,6 +13,16 @@ body {
   height: 100%;
 }
 
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
 /* reused css */
 
 @font-face {
@@ -272,4 +282,76 @@ p {
   display: block;
   padding-left: 4%;
   margin: 2px;
+}
+
+/* contact page */
+
+.contact-container {
+  position: absolute;
+  width: 50em;
+  height: auto;
+  margin-left: 30%;
+  margin-top: -60%;
+  z-index: 100;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.contact-container h1 {
+  float: right;
+  font-size: 4rem;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
+}
+
+.contacts textarea {
+  height: 200px;
+  width: 600px;
+  font-family: inherit;
+  padding-top: 15px;
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-inputs {
+  border: 1.2px rgb(169, 169, 169) solid;
+  height: 50px;
+  width: 600px;
+  padding-left: 25px;
+  color: #666;
+  border-radius: 50px;
+}
+
+.contact-inputs::placeholder {
+  color: #a9a9a9;
+}
+
+.button-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  height: 3.3em;
+  right: 13em;
+  background-color: #b5aed2;
+  color: white;
+  margin: 1% 0%;
+  padding: 1.5em;
+  border-radius: 50px;
+  box-shadow: rgba(86, 86, 86, 0.24) 0px 3px 8px;
+}
+
+.button-2:hover {
+  background-color: #aaa3c5;
+  transition-duration: 0.4s;
 }

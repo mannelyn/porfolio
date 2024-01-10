@@ -40,14 +40,42 @@
       <!-- main -->
 
       <main>
-        <div class="main-container">
-          <p class="segoe">/////////////////////</p>
-          <h1>Hi! I'm <mark class="purple">Mannelyn</mark></h1>
-          <p class="smaller-font">
-            Front-End Web Developer <br />
-            & Web Designer
-          </p>
-          <a href="#" class="button-1 segoe">Check out my projects</a>
+        <div class="contact-container">
+          <div>
+            <mark class="purple"><h1>Contact</h1></mark>
+          </div>
+          <form
+            action="https://api.web3forms.com/submit"
+            class="contacts"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="d3d1afc3-11fd-4b88-8620-26833465f24d"
+            />
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="contact-inputs"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="contact-inputs"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              class="contact-inputs"
+              required
+            ></textarea>
+            <button type="submit" class="button-2">Submit</button>
+          </form>
         </div>
       </main>
     </div>
