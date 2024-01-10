@@ -127,6 +127,14 @@ nav ul li {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+.nav-buttons:hover {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+  transition-duration: 0.2s;
+  transition-timing-function: line;
+}
+
 /* main */
 
 .main-container {
@@ -215,7 +223,7 @@ h2 {
   top: 0;
   bottom: 0;
   width: 65em;
-  height: 49.3em;
+  height: 48.4em;
   overflow-y: scroll;
 }
 
