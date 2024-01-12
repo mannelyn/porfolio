@@ -301,8 +301,8 @@ p {
 
 .contact-container h1 {
   float: right;
-  font-size: 4rem;
-  padding-right: 10px;
+  font-size: 4.3rem;
+  padding-right: 15px;
   padding-bottom: 20px;
 }
 
@@ -314,8 +314,8 @@ p {
 }
 
 .contacts textarea {
-  height: 200px;
-  width: 600px;
+  height: 190px;
+  width: 650px;
   font-family: inherit;
   padding-top: 15px;
   border-radius: 20px;
@@ -323,17 +323,45 @@ p {
 }
 
 .contact-inputs {
-  border: 1.2px rgb(169, 169, 169) solid;
-  height: 50px;
-  width: 600px;
+  border: 1.2px rgb(211, 211, 211) solid;
+  height: 53px;
+  width: 650px;
   padding-left: 25px;
   color: #666;
   border-radius: 50px;
 }
 
-.contact-inputs::placeholder {
-  color: #a9a9a9;
+.contact-inputs:hover {
+  border: 1.2px #b1b1b1 solid;
+  transition-duration: 0.4s;
 }
+
+.socials-container {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 3.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -33%;
+  margin-left: 102%;
+}
+
+.socials {
+  position: relative;
+  height: 3.2em;
+  width: 3.2em;
+  border-radius: 10px;
+  padding: 3px;
+  opacity: 80%;
+}
+
+.socials:hover {
+  opacity: 100%;
+  transition-duration: 0.4s;
+}
+
+/* submit button for contact input */
 
 .button-2 {
   position: relative;
