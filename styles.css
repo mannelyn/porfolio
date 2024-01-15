@@ -383,3 +383,81 @@ p {
   background-color: #aaa3c5;
   transition-duration: 0.4s;
 }
+
+/* MEDIA QUIERIES */
+
+/* media query for index page */
+
+@media screen and (max-width: 1900px) {
+  .main-container {
+    position: absolute;
+    width: 50em;
+    height: 500px;
+    margin-left: 0%;
+    margin-top: -60%;
+    z-index: 100;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .main-container {
+    position: absolute;
+    width: 40em;
+    height: 500px;
+    margin-left: 0%;
+    margin-top: -40%;
+    z-index: 100;
+  }
+
+  .main-container h1 {
+    font-size: 4em;
+  }
+
+  .main-container p {
+    font-size: 2em;
+  }
+
+  .main-container p:first-child {
+    display: none;
+  }
+
+  .button-1 {
+    width: 13em;
+  }
+
+  #purple-circle {
+    margin-left: -62%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-container {
+    position: absolute;
+    width: 35em;
+    height: 500px;
+    margin-left: -10%;
+    margin-top: -40%;
+    z-index: 100;
+  }
+
+  .main-container h1 {
+    font-size: 4em;
+  }
+
+  .main-container p {
+    font-size: 2em;
+  }
+
+  .main-container p:first-child {
+    display: none;
+  }
+
+  .button-1 {
+    width: 13em;
+  }
+
+  #purple-circle {
+    margin-left: -90%;
+  }
+}
