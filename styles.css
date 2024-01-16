@@ -155,6 +155,9 @@ nav ul li {
   margin-top: -60%;
   z-index: 100;
   text-align: right;
+  animation-name: main-animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .main-container h1 {
@@ -203,6 +206,9 @@ nav ul li {
   margin-top: -60%;
   z-index: 100;
   text-align: right;
+  animation-name: main-animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .about-container h1,
@@ -235,6 +241,9 @@ h2 {
   width: 65em;
   height: 48.4em;
   overflow-y: scroll;
+  animation-name: main-animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .project-container::-webkit-scrollbar {
@@ -297,6 +306,9 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  animation-name: main-animation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 .contact-container h1 {
@@ -384,11 +396,24 @@ p {
   transition-duration: 0.4s;
 }
 
+/* !!!EXTRAS!!! */
+
+/* Animation */
+
+@keyframes main-animation {
+  from {
+    opacity: 40%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
 /* MEDIA QUIERIES */
 
-/* media query for index page */
-
 @media screen and (max-width: 1900px) {
+  /* index */
+
   .main-container {
     position: absolute;
     width: 50em;
@@ -398,9 +423,19 @@ p {
     z-index: 100;
     text-align: right;
   }
+
+  /* about */
+  .about-container {
+    position: absolute;
+    width: 45em;
+    height: 500px;
+    margin-left: 45%;
+    margin-top: -60%;
+  }
 }
 
 @media screen and (max-width: 1500px) {
+  /* index */
   .main-container {
     position: absolute;
     width: 40em;
@@ -429,35 +464,13 @@ p {
   #purple-circle {
     margin-left: -62%;
   }
-}
 
-@media screen and (max-width: 1200px) {
-  .main-container {
+  /* about */
+  .about-container {
     position: absolute;
     width: 35em;
     height: 500px;
-    margin-left: -10%;
-    margin-top: -40%;
-    z-index: 100;
-  }
-
-  .main-container h1 {
-    font-size: 4em;
-  }
-
-  .main-container p {
-    font-size: 2em;
-  }
-
-  .main-container p:first-child {
-    display: none;
-  }
-
-  .button-1 {
-    width: 13em;
-  }
-
-  #purple-circle {
-    margin-left: -90%;
+    margin-left: 45%;
+    margin-top: -60%;
   }
 }
