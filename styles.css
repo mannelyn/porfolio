@@ -473,4 +473,14 @@ p {
     margin-left: 45%;
     margin-top: -60%;
   }
+
+  /* project */
+  .project-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50em;
+    height: 48.4em;
+    margin-left: 10%;
+  }
 }
