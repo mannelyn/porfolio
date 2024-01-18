@@ -432,6 +432,14 @@ p {
     margin-left: 45%;
     margin-top: -60%;
   }
+
+  /* contact */
+  .contact-container {
+    position: absolute;
+    width: 50em;
+    height: auto;
+    margin-left: 7%;
+  }
 }
 
 @media screen and (max-width: 1500px) {
@@ -482,5 +490,13 @@ p {
     width: 50em;
     height: 48.4em;
     margin-left: 10%;
+  }
+
+  /* contact */
+  .contact-container {
+    position: absolute;
+    width: 50em;
+    height: auto;
+    margin-left: -15%;
   }
 }
