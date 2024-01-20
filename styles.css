@@ -50,7 +50,7 @@ mark.pastel-purple {
   background: none;
 }
 
-/* --- backround elements --- */
+/* backround elements */
 
 #purple-circle {
   position: fixed;
@@ -92,7 +92,7 @@ mark.pastel-purple {
   z-index: 1;
 }
 
-/* --- nav --- */
+/* ------ NAVIGATION ------ */
 
 #nav-container {
   position: absolute;
@@ -145,7 +145,7 @@ nav ul li {
   transition-timing-function: line;
 }
 
-/* main */
+/* ------ INDEX PAGE ------ */
 
 .main-container {
   position: absolute;
@@ -293,7 +293,7 @@ p {
   margin: 2px;
 }
 
-/* contact page */
+/* ------ CONTACT PAGE ------ */
 
 .contact-container {
   position: absolute;
@@ -396,9 +396,9 @@ p {
   transition-duration: 0.4s;
 }
 
-/* !!!EXTRAS!!! */
+/* --- !!!EXTRAS!!! --- */
 
-/* Animation */
+/* fade-in animation  */
 
 @keyframes main-animation {
   from {
@@ -409,7 +409,7 @@ p {
   }
 }
 
-/* MEDIA QUIERIES */
+/* ------ MEDIA QUERIES ------ */
 
 @media screen and (max-width: 1900px) {
   /* index */
