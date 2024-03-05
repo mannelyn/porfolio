@@ -50,6 +50,11 @@ mark.pastel-purple {
   background: none;
 }
 
+strong {
+  color: #808080;
+  font-weight: 700;
+}
+
 /* backround elements */
 
 #purple-circle {
